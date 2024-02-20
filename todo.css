@@ -1,0 +1,109 @@
+h1 {
+    text-align: center;
+}
+
+body {
+    width: 100%;
+    height: 50%;
+    background-color: rgb(227, 223, 223);
+    padding: 10px;
+    font-family: 'Courier New';
+    font-size: 12px;
+}
+
+.bodycontainer {
+    background-color: white;
+    border-width: 2px;
+    border-radius: 5px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 30px;
+    background-color: white;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.15);
+    object-fit: contain;
+    position: relative;
+}
+
+input {
+    padding: 9px;
+    flex: 1;
+    width: 80%;
+    border-radius: 10px;
+    border: solid;
+    border-width: 2px;
+    border-color: #0805aa;
+    background: transparent;
+    float: left;
+    margin: auto;
+    object-fit: contain;
+    border-radius: 0;
+    font-family: 'Courier New';
+    font-size: 12px;
+}
+
+button {
+    width: 20%;
+    padding: 10px;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+    background-color: #0805aa;
+    transition: opacity 0.5s;
+    color: white;
+    font-family: 'Courier New';
+    font-size: 12px;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.15);
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+button:active {
+    opacity: 0.2;
+}
+
+.inputcontainer {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+
+li {
+    padding: 12px;
+    font-weight: bolder;
+    box-shadow: 5px 5px 5px rgba(130, 129, 129, 0.1);
+    display: flex;
+    align-items: center;
+    position: relative;
+    
+}
+
+li:nth-child(odd) {
+    background-color: #9e9e9e;
+}
+
+li:nth-child(even) {
+    background-color: #cac9c9;
+}
+
+li Editspan {
+    cursor: pointer;
+    color: rgb(234, 255, 0);
+    position: absolute;
+    right: 50px;
+}
+li Deletespan{
+    right: 3px;
+    position: absolute;
+    color: red;
+    cursor: pointer;
+    
+}
+
